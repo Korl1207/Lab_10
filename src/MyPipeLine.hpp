@@ -40,8 +40,6 @@ class MyPipeLine {
   }
 };
 
-#endif  // MYPIPELINE_HPP
-
 template <typename T>
 template <typename F>
 void MyPipeLine<T>::addStep(const std::string& name, F func) {
@@ -79,3 +77,5 @@ std::vector<T> MyPipeLine<T>::trace(T value) const {
   }
   return res;
 }
+
+#endif  // MYPIPELINE_HPP

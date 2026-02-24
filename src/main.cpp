@@ -39,8 +39,8 @@ int main() {
   std::cout << strPipeline << std::endl;
 
   std::string in = "Einstein";
-  std::cout << "Input fo run: " << in << std::endl;
-  std::cout << "Reuslt: " << strPipeline.run(in) << std::endl << std::endl;
+  std::cout << "Input to run: " << in << std::endl;
+  std::cout << "Result: " << strPipeline.run(in) << std::endl << std::endl;
 
   std::cout << "Excetion removeStep: " << std::endl;
   try {
